@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Nunito+Sans:ital,wght@0,400;0,700;0,800;1,300;1,700&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    
+}
+section{
+    position: relative;
+    width: 100%;
+    min-width: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a39e9e6c;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    height: 30px;
+    display: inline-block;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 800;
+    margin-left: 40px;
+    text-decoration: none;
+    background-color: #007311;
+}
+
+.container .text-box{
+    position: relative;
+    max-width: 600px;
+}
+.container .text-box h2{
+    color: #333;
+    font-size: 4em;
+    font-weight: 500px;
+}
+.container .text-box h2 span{
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.container .text-box p{
+    color: #333;
+}
+.container .text-box a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #017143;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.thumb li:hover{
+    transform: translateY(-15px);
+}
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    clip-path: circle(600px at right 800px);
+}
+.boxoflogo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 1s;
+}
+.boxoflogo:hover{
+    transform: translateX(15px);
+}
+.imgbox{
+    position: absolute;
+    height: 150px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -5%;
+    transition: all  1s;
+}
+.imgbox:hover{
+    transform: translateY(-15px);
+}
+#imgbox1{
+    margin-left: 20%;
+    background-image: url("thumb1.png");
+}
+#imgbox2{
+    margin-left: 33%;
+    background-image: url("thumb2.png");
+}
+#imgbox3{
+    margin-left: 47%;
+    background-image: url("thumb3.png");
+}
+.list{
+    display: inline-block;
+}
+.bigbox{position: absolute;
+    height: 350px;
+    width: 300px;
+    margin-left: 55%;
+    background-image: url("img1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 5%;
+    transition: all  1s;
+    
+}
+.bigbox:hover{
+    transform: translateY(-15px);
+}
